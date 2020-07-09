@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3836C4BB24652511000A884E /* TSHIRT.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3836C4BA24652510000A884E /* TSHIRT.jpeg */; };
+		3836C4C224671976000A884E /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C4C124671976000A884E /* CheckoutViewController.swift */; };
+		3836C4C524671AC7000A884E /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C4C424671AC7000A884E /* ReceiptViewController.swift */; };
+		38840A1F246977A5008B4B17 /* ReceiptFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38840A1E246977A5008B4B17 /* ReceiptFooterView.xib */; };
+		38840A2124699E75008B4B17 /* ihr_qr_code_ohne_logo 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38840A2024699E75008B4B17 /* ihr_qr_code_ohne_logo 2.jpg */; };
+		38840A23246A5B32008B4B17 /* ReceiptsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38840A22246A5B32008B4B17 /* ReceiptsListViewController.swift */; };
+		38840A25246AB165008B4B17 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38840A24246AB165008B4B17 /* ProductDetailViewController.swift */; };
+		38840B66247517AB008B4B17 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38840B65247517AA008B4B17 /* CoreLocation.framework */; };
+		38840B6924752BA7008B4B17 /* StoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38840B6824752BA7008B4B17 /* StoresViewController.swift */; };
+		38F73E8E2462E7E6008CA3B7 /* SpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F73E8C2462E7E5008CA3B7 /* SpinnerView.m */; };
+		38F73E8F2462E7E6008CA3B7 /* SpinnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38F73E8D2462E7E6008CA3B7 /* SpinnerView.xib */; };
+		38F73E922462E9EC008CA3B7 /* UIView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F73E912462E9EC008CA3B7 /* UIView+Constraint.m */; };
+		38F73EDC2462FECA008CA3B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F73EDB2462FEC9008CA3B7 /* WebKit.framework */; };
+		38F73F1E24630653008CA3B7 /* ReactiveBridge in Resources */ = {isa = PBXBuildFile; fileRef = 38F73F1924630652008CA3B7 /* ReactiveBridge */; };
+		38F73F2324640650008CA3B7 /* H&M.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 38F73F222464064E008CA3B7 /* H&M.jpeg */; };
+		38FB75902462B54C009491AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB758F2462B54C009491AC /* AppDelegate.swift */; };
+		38FB75922462B54C009491AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB75912462B54C009491AC /* SceneDelegate.swift */; };
+		38FB75972462B54C009491AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FB75952462B54C009491AC /* Main.storyboard */; };
+		38FB75992462B54D009491AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FB75982462B54D009491AC /* Assets.xcassets */; };
+		38FB759C2462B54D009491AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FB759A2462B54D009491AC /* LaunchScreen.storyboard */; };
+		38FB75A72462B54D009491AC /* SmartCheckoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB75A62462B54D009491AC /* SmartCheckoutTests.swift */; };
+		38FB75B22462B54D009491AC /* SmartCheckoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB75B12462B54D009491AC /* SmartCheckoutUITests.swift */; };
+		38FB75C02462B5D9009491AC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 38FB75BF2462B5D9009491AC /* Podfile */; };
+		38FB75C42462B7C8009491AC /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB75C32462B7C8009491AC /* CartViewController.swift */; };
+		38FB75CC2462B817009491AC /* SmartCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FB75CA2462B816009491AC /* SmartCartCell.xib */; };
+		38FB75CD2462B817009491AC /* SmartCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB75CB2462B817009491AC /* SmartCartCell.swift */; };
+		38FB75E92462CA98009491AC /* MTBBarcodeScanner.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FB75DB2462C680009491AC /* MTBBarcodeScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E7AB62E144F52744A6CC512 /* Pods_SmartCheckout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F565935E61D9C62F17581B /* Pods_SmartCheckout.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38FB75A32462B54D009491AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FB75842462B54C009491AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FB758B2462B54C009491AC;
+			remoteInfo = SmartCheckout;
+		};
+		38FB75AE2462B54D009491AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FB75842462B54C009491AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FB758B2462B54C009491AC;
+			remoteInfo = SmartCheckout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38FB75E82462CA87009491AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38FB75E92462CA98009491AC /* MTBBarcodeScanner.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00F565935E61D9C62F17581B /* Pods_SmartCheckout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCheckout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3836C4BA24652510000A884E /* TSHIRT.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TSHIRT.jpeg; sourceTree = "<group>"; };
+		3836C4C124671976000A884E /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		3836C4C424671AC7000A884E /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		38840A1E246977A5008B4B17 /* ReceiptFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptFooterView.xib; sourceTree = "<group>"; };
+		38840A2024699E75008B4B17 /* ihr_qr_code_ohne_logo 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ihr_qr_code_ohne_logo 2.jpg"; sourceTree = "<group>"; };
+		38840A22246A5B32008B4B17 /* ReceiptsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsListViewController.swift; sourceTree = "<group>"; };
+		38840A24246AB165008B4B17 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		38840B65247517AA008B4B17 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		38840B6824752BA7008B4B17 /* StoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresViewController.swift; sourceTree = "<group>"; };
+		38F73E8B2462E7E5008CA3B7 /* SpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinnerView.h; sourceTree = "<group>"; };
+		38F73E8C2462E7E5008CA3B7 /* SpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerView.m; sourceTree = "<group>"; };
+		38F73E8D2462E7E6008CA3B7 /* SpinnerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpinnerView.xib; sourceTree = "<group>"; };
+		38F73E902462E959008CA3B7 /* UIView+Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraint.h"; sourceTree = "<group>"; };
+		38F73E912462E9EC008CA3B7 /* UIView+Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraint.m"; sourceTree = "<group>"; };
+		38F73ECC2462F839008CA3B7 /* Common-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Common-Bridging-Header.h"; sourceTree = "<group>"; };
+		38F73EDB2462FEC9008CA3B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		38F73F1924630652008CA3B7 /* ReactiveBridge */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReactiveBridge; sourceTree = "<group>"; };
+		38F73F222464064E008CA3B7 /* H&M.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "H&M.jpeg"; sourceTree = "<group>"; };
+		38FB758C2462B54C009491AC /* SmartCheckout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCheckout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FB758F2462B54C009491AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38FB75912462B54C009491AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38FB75962462B54C009491AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38FB75982462B54D009491AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38FB759B2462B54D009491AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38FB759D2462B54D009491AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FB75A22462B54D009491AC /* SmartCheckoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCheckoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FB75A62462B54D009491AC /* SmartCheckoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCheckoutTests.swift; sourceTree = "<group>"; };
+		38FB75A82462B54D009491AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FB75AD2462B54D009491AC /* SmartCheckoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCheckoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FB75B12462B54D009491AC /* SmartCheckoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCheckoutUITests.swift; sourceTree = "<group>"; };
+		38FB75B32462B54D009491AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FB75BF2462B5D9009491AC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38FB75C32462B7C8009491AC /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		38FB75CA2462B816009491AC /* SmartCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmartCartCell.xib; sourceTree = "<group>"; };
+		38FB75CB2462B817009491AC /* SmartCartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartCartCell.swift; sourceTree = "<group>"; };
+		38FB75DB2462C680009491AC /* MTBBarcodeScanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTBBarcodeScanner.framework; sourceTree = "<group>"; };
+		38FB75EF2462D4EE009491AC /* UIImage+Resize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		38FB75F02462D4EE009491AC /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		38FB75F12462D4EE009491AC /* UIImage+Resize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		38FB75F22462D4EF009491AC /* UIImage+resizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+resizeImage.swift"; sourceTree = "<group>"; };
+		38FB75F32462D4EF009491AC /* UIImage+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Colors.swift"; sourceTree = "<group>"; };
+		38FB75F42462D4EF009491AC /* UIImage+Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Reactive.swift"; sourceTree = "<group>"; };
+		38FB75F52462D4F0009491AC /* UIImage+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+AutoLayout.swift"; sourceTree = "<group>"; };
+		674B7F46D8F6F48B5BCE58C9 /* Pods-SmartCheckout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCheckout.debug.xcconfig"; path = "Target Support Files/Pods-SmartCheckout/Pods-SmartCheckout.debug.xcconfig"; sourceTree = "<group>"; };
+		9043E147175BE7C33AF2F9FC /* Pods-SmartCheckout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCheckout.release.xcconfig"; path = "Target Support Files/Pods-SmartCheckout/Pods-SmartCheckout.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38FB75892462B54C009491AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38840B66247517AB008B4B17 /* CoreLocation.framework in Frameworks */,
+				38F73EDC2462FECA008CA3B7 /* WebKit.framework in Frameworks */,
+				4E7AB62E144F52744A6CC512 /* Pods_SmartCheckout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FB759F2462B54D009491AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FB75AA2462B54D009491AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3836C4C324671A04000A884E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38840B6724752B29008B4B17 /* StoreLocator */,
+				38FB75C32462B7C8009491AC /* CartViewController.swift */,
+				3836C4C124671976000A884E /* CheckoutViewController.swift */,
+				3836C4C424671AC7000A884E /* ReceiptViewController.swift */,
+				38840A22246A5B32008B4B17 /* ReceiptsListViewController.swift */,
+				38840A24246AB165008B4B17 /* ProductDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		38840B6724752B29008B4B17 /* StoreLocator */ = {
+			isa = PBXGroup;
+			children = (
+				38840B6824752BA7008B4B17 /* StoresViewController.swift */,
+			);
+			path = StoreLocator;
+			sourceTree = "<group>";
+		};
+		3895250A2476777900C908EA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		38F73E932462EED8008CA3B7 /* Category+UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				38FB75F52462D4F0009491AC /* UIImage+AutoLayout.swift */,
+				38FB75F12462D4EE009491AC /* UIImage+Resize.h */,
+				38FB75EF2462D4EE009491AC /* UIImage+Resize.m */,
+				38FB75F22462D4EF009491AC /* UIImage+resizeImage.swift */,
+				38FB75F02462D4EE009491AC /* UIImage+Extension.swift */,
+				38FB75F32462D4EF009491AC /* UIImage+Colors.swift */,
+				38FB75F42462D4EF009491AC /* UIImage+Reactive.swift */,
+			);
+			path = "Category+UIImage";
+			sourceTree = "<group>";
+		};
+		38F73E942462EEF3008CA3B7 /* SpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+				38F73E902462E959008CA3B7 /* UIView+Constraint.h */,
+				38F73E912462E9EC008CA3B7 /* UIView+Constraint.m */,
+				38F73E8B2462E7E5008CA3B7 /* SpinnerView.h */,
+				38F73E8C2462E7E5008CA3B7 /* SpinnerView.m */,
+				38F73E8D2462E7E6008CA3B7 /* SpinnerView.xib */,
+			);
+			path = SpinnerView;
+			sourceTree = "<group>";
+		};
+		38F73EA42462F023008CA3B7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				38F73F1924630652008CA3B7 /* ReactiveBridge */,
+				38F73ECC2462F839008CA3B7 /* Common-Bridging-Header.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		38FB75832462B54C009491AC = {
+			isa = PBXGroup;
+			children = (
+				38FB758E2462B54C009491AC /* SmartCheckout */,
+				38FB75A52462B54D009491AC /* SmartCheckoutTests */,
+				38FB75B02462B54D009491AC /* SmartCheckoutUITests */,
+				38FB758D2462B54C009491AC /* Products */,
+				90C66C2254AB7332D39A16B2 /* Pods */,
+				D8A1EAD5C3D5A829F517A27F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		38FB758D2462B54C009491AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38FB758C2462B54C009491AC /* SmartCheckout.app */,
+				38FB75A22462B54D009491AC /* SmartCheckoutTests.xctest */,
+				38FB75AD2462B54D009491AC /* SmartCheckoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38FB758E2462B54C009491AC /* SmartCheckout */ = {
+			isa = PBXGroup;
+			children = (
+				3895250A2476777900C908EA /* Map */,
+				3836C4C324671A04000A884E /* ViewControllers */,
+				38F73EA42462F023008CA3B7 /* Network */,
+				38F73E942462EEF3008CA3B7 /* SpinnerView */,
+				38F73E932462EED8008CA3B7 /* Category+UIImage */,
+				38FB75CF2462B836009491AC /* SmartCartCell */,
+				38FB75BF2462B5D9009491AC /* Podfile */,
+				38FB758F2462B54C009491AC /* AppDelegate.swift */,
+				38FB75912462B54C009491AC /* SceneDelegate.swift */,
+				38FB75952462B54C009491AC /* Main.storyboard */,
+				3836C4BA24652510000A884E /* TSHIRT.jpeg */,
+				38F73F222464064E008CA3B7 /* H&M.jpeg */,
+				38FB75982462B54D009491AC /* Assets.xcassets */,
+				38840A2024699E75008B4B17 /* ihr_qr_code_ohne_logo 2.jpg */,
+				38FB759A2462B54D009491AC /* LaunchScreen.storyboard */,
+				38FB759D2462B54D009491AC /* Info.plist */,
+				38840A1E246977A5008B4B17 /* ReceiptFooterView.xib */,
+			);
+			path = SmartCheckout;
+			sourceTree = "<group>";
+		};
+		38FB75A52462B54D009491AC /* SmartCheckoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				38FB75A62462B54D009491AC /* SmartCheckoutTests.swift */,
+				38FB75A82462B54D009491AC /* Info.plist */,
+			);
+			path = SmartCheckoutTests;
+			sourceTree = "<group>";
+		};
+		38FB75B02462B54D009491AC /* SmartCheckoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38FB75B12462B54D009491AC /* SmartCheckoutUITests.swift */,
+				38FB75B32462B54D009491AC /* Info.plist */,
+			);
+			path = SmartCheckoutUITests;
+			sourceTree = "<group>";
+		};
+		38FB75CF2462B836009491AC /* SmartCartCell */ = {
+			isa = PBXGroup;
+			children = (
+				38FB75CB2462B817009491AC /* SmartCartCell.swift */,
+				38FB75CA2462B816009491AC /* SmartCartCell.xib */,
+			);
+			path = SmartCartCell;
+			sourceTree = "<group>";
+		};
+		90C66C2254AB7332D39A16B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				674B7F46D8F6F48B5BCE58C9 /* Pods-SmartCheckout.debug.xcconfig */,
+				9043E147175BE7C33AF2F9FC /* Pods-SmartCheckout.release.xcconfig */,
+			);
+			name = Pods;
+			path = SmartCheckout/Pods;
+			sourceTree = "<group>";
+		};
+		D8A1EAD5C3D5A829F517A27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38840B65247517AA008B4B17 /* CoreLocation.framework */,
+				38F73EDB2462FEC9008CA3B7 /* WebKit.framework */,
+				38FB75DB2462C680009491AC /* MTBBarcodeScanner.framework */,
+				00F565935E61D9C62F17581B /* Pods_SmartCheckout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38FB758B2462B54C009491AC /* SmartCheckout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FB75B62462B54D009491AC /* Build configuration list for PBXNativeTarget "SmartCheckout" */;
+			buildPhases = (
+				60D6A09F789A6E4563ECC39A /* [CP] Check Pods Manifest.lock */,
+				38FB75882462B54C009491AC /* Sources */,
+				38FB75892462B54C009491AC /* Frameworks */,
+				38FB758A2462B54C009491AC /* Resources */,
+				37D0197D46517D8A0F7F9048 /* [CP] Embed Pods Frameworks */,
+				38FB75E82462CA87009491AC /* CopyFiles */,
+				00CAED3E6A70F3E27792E01B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCheckout;
+			productName = SmartCheckout;
+			productReference = 38FB758C2462B54C009491AC /* SmartCheckout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38FB75A12462B54D009491AC /* SmartCheckoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FB75B92462B54D009491AC /* Build configuration list for PBXNativeTarget "SmartCheckoutTests" */;
+			buildPhases = (
+				38FB759E2462B54D009491AC /* Sources */,
+				38FB759F2462B54D009491AC /* Frameworks */,
+				38FB75A02462B54D009491AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FB75A42462B54D009491AC /* PBXTargetDependency */,
+			);
+			name = SmartCheckoutTests;
+			productName = SmartCheckoutTests;
+			productReference = 38FB75A22462B54D009491AC /* SmartCheckoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38FB75AC2462B54D009491AC /* SmartCheckoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FB75BC2462B54D009491AC /* Build configuration list for PBXNativeTarget "SmartCheckoutUITests" */;
+			buildPhases = (
+				38FB75A92462B54D009491AC /* Sources */,
+				38FB75AA2462B54D009491AC /* Frameworks */,
+				38FB75AB2462B54D009491AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FB75AF2462B54D009491AC /* PBXTargetDependency */,
+			);
+			name = SmartCheckoutUITests;
+			productName = SmartCheckoutUITests;
+			productReference = 38FB75AD2462B54D009491AC /* SmartCheckoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38FB75842462B54C009491AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = himanshu;
+				TargetAttributes = {
+					38FB758B2462B54C009491AC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					38FB75A12462B54D009491AC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 38FB758B2462B54C009491AC;
+					};
+					38FB75AC2462B54D009491AC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 38FB758B2462B54C009491AC;
+					};
+				};
+			};
+			buildConfigurationList = 38FB75872462B54C009491AC /* Build configuration list for PBXProject "SmartCheckout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38FB75832462B54C009491AC;
+			productRefGroup = 38FB758D2462B54C009491AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38FB758B2462B54C009491AC /* SmartCheckout */,
+				38FB75A12462B54D009491AC /* SmartCheckoutTests */,
+				38FB75AC2462B54D009491AC /* SmartCheckoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38FB758A2462B54C009491AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38840A1F246977A5008B4B17 /* ReceiptFooterView.xib in Resources */,
+				38FB75CC2462B817009491AC /* SmartCartCell.xib in Resources */,
+				38FB759C2462B54D009491AC /* LaunchScreen.storyboard in Resources */,
+				3836C4BB24652511000A884E /* TSHIRT.jpeg in Resources */,
+				38F73F1E24630653008CA3B7 /* ReactiveBridge in Resources */,
+				38840A2124699E75008B4B17 /* ihr_qr_code_ohne_logo 2.jpg in Resources */,
+				38FB75992462B54D009491AC /* Assets.xcassets in Resources */,
+				38FB75C02462B5D9009491AC /* Podfile in Resources */,
+				38F73E8F2462E7E6008CA3B7 /* SpinnerView.xib in Resources */,
+				38FB75972462B54C009491AC /* Main.storyboard in Resources */,
+				38F73F2324640650008CA3B7 /* H&M.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FB75A02462B54D009491AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FB75AB2462B54D009491AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00CAED3E6A70F3E27792E01B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartCheckout/Pods-SmartCheckout-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartCheckout/Pods-SmartCheckout-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartCheckout/Pods-SmartCheckout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37D0197D46517D8A0F7F9048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartCheckout/Pods-SmartCheckout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartCheckout/Pods-SmartCheckout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartCheckout/Pods-SmartCheckout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60D6A09F789A6E4563ECC39A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartCheckout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38FB75882462B54C009491AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FB75902462B54C009491AC /* AppDelegate.swift in Sources */,
+				3836C4C524671AC7000A884E /* ReceiptViewController.swift in Sources */,
+				38840B6924752BA7008B4B17 /* StoresViewController.swift in Sources */,
+				38F73E922462E9EC008CA3B7 /* UIView+Constraint.m in Sources */,
+				38FB75C42462B7C8009491AC /* CartViewController.swift in Sources */,
+				38FB75922462B54C009491AC /* SceneDelegate.swift in Sources */,
+				38F73E8E2462E7E6008CA3B7 /* SpinnerView.m in Sources */,
+				38FB75CD2462B817009491AC /* SmartCartCell.swift in Sources */,
+				38840A25246AB165008B4B17 /* ProductDetailViewController.swift in Sources */,
+				3836C4C224671976000A884E /* CheckoutViewController.swift in Sources */,
+				38840A23246A5B32008B4B17 /* ReceiptsListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FB759E2462B54D009491AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FB75A72462B54D009491AC /* SmartCheckoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FB75A92462B54D009491AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FB75B22462B54D009491AC /* SmartCheckoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38FB75A42462B54D009491AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38FB758B2462B54C009491AC /* SmartCheckout */;
+			targetProxy = 38FB75A32462B54D009491AC /* PBXContainerItemProxy */;
+		};
+		38FB75AF2462B54D009491AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38FB758B2462B54C009491AC /* SmartCheckout */;
+			targetProxy = 38FB75AE2462B54D009491AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38FB75952462B54C009491AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38FB75962462B54C009491AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38FB759A2462B54D009491AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38FB759B2462B54D009491AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38FB75B42462B54D009491AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38FB75B52462B54D009491AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38FB75B72462B54D009491AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674B7F46D8F6F48B5BCE58C9 /* Pods-SmartCheckout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QFES4VTDQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SmartCheckout/Network",
+				);
+				INFOPLIST_FILE = SmartCheckout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SmartCheckout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartCheckout/Network/Common-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38FB75B82462B54D009491AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9043E147175BE7C33AF2F9FC /* Pods-SmartCheckout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QFES4VTDQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SmartCheckout/Network",
+				);
+				INFOPLIST_FILE = SmartCheckout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SmartCheckout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartCheckout/Network/Common-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		38FB75BA2462B54D009491AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QFES4VTDQ;
+				INFOPLIST_FILE = SmartCheckoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SmartCheckoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCheckout.app/SmartCheckout";
+			};
+			name = Debug;
+		};
+		38FB75BB2462B54D009491AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QFES4VTDQ;
+				INFOPLIST_FILE = SmartCheckoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SmartCheckoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCheckout.app/SmartCheckout";
+			};
+			name = Release;
+		};
+		38FB75BD2462B54D009491AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QFES4VTDQ;
+				INFOPLIST_FILE = SmartCheckoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SmartCheckoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCheckout;
+			};
+			name = Debug;
+		};
+		38FB75BE2462B54D009491AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QFES4VTDQ;
+				INFOPLIST_FILE = SmartCheckoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SmartCheckoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCheckout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38FB75872462B54C009491AC /* Build configuration list for PBXProject "SmartCheckout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FB75B42462B54D009491AC /* Debug */,
+				38FB75B52462B54D009491AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38FB75B62462B54D009491AC /* Build configuration list for PBXNativeTarget "SmartCheckout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FB75B72462B54D009491AC /* Debug */,
+				38FB75B82462B54D009491AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38FB75B92462B54D009491AC /* Build configuration list for PBXNativeTarget "SmartCheckoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FB75BA2462B54D009491AC /* Debug */,
+				38FB75BB2462B54D009491AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38FB75BC2462B54D009491AC /* Build configuration list for PBXNativeTarget "SmartCheckoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FB75BD2462B54D009491AC /* Debug */,
+				38FB75BE2462B54D009491AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38FB75842462B54C009491AC /* Project object */;
+}

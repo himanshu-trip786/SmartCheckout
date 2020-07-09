@@ -1,0 +1,51 @@
+PODS:
+  - CocoaLumberjack/Core (3.6.1)
+  - CocoaLumberjack/Swift (3.6.1):
+    - CocoaLumberjack/Core
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - ReactiveCocoa (10.2.0):
+    - ReactiveSwift (~> 6.2)
+  - ReactiveObjC (3.1.1)
+  - ReactiveSwift (6.2.1)
+  - SDWebImage (5.4.3):
+    - SDWebImage/Core (= 5.4.3)
+  - SDWebImage/Core (5.4.3)
+  - ZXingObjC (3.6.5):
+    - ZXingObjC/All (= 3.6.5)
+  - ZXingObjC/All (3.6.5)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift
+  - GoogleMaps
+  - ReactiveCocoa (~> 10)
+  - ReactiveObjC (~> 3)
+  - ReactiveSwift (~> 6)
+  - SDWebImage (~> 5.4.2)
+  - ZXingObjC (~> 3)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaLumberjack
+    - GoogleMaps
+    - ReactiveCocoa
+    - ReactiveObjC
+    - ReactiveSwift
+    - SDWebImage
+    - ZXingObjC
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  ReactiveCocoa: a123c42f449c552460a4ee217dd49c76a17c8204
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  ReactiveSwift: 07ddf579f4eb3ee3bd656214f0461aaf2c0fd639
+  SDWebImage: a7c50c8647259e297447558335df97880905a25e
+  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
+
+PODFILE CHECKSUM: 18c1590c6d397e99209a53997293de6593418909
+
+COCOAPODS: 1.8.4

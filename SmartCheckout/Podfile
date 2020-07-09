@@ -1,0 +1,35 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '11.0'
+source 'https://github.com/brightcove/BrightcoveSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+inhibit_all_warnings!
+project '/Users/himanshu.d.tripathi/PROJECT/Scan_And_Go/SmartCheckout/SmartCheckout.xcodeproj'
+
+target 'SmartCheckout' do
+
+#    platform :ios, '11.0'
+    platform :ios, '11.0'
+    pod 'GoogleMaps'
+    pod 'CocoaLumberjack/Swift'
+    pod 'ReactiveSwift', '~> 6'
+    pod 'ReactiveObjC', '~> 3'
+    pod 'ReactiveCocoa', '~> 10'
+    pod 'ReactiveObjC', '~> 3'
+    pod 'ZXingObjC', '~> 3'
+    pod 'SDWebImage', '~> 5.4.2'
+#    pod 'Razorpay'
+end
+
+# Need to fix problem with setting flag 'NO' to 'ONLY_ACTIVE_ARCH' every time we install pod's
+# https://github.com/CocoaPods/CocoaPods/issues/1400#issuecomment-39855490
+# http://samwize.com/2014/05/15/resolving-cocoapods-build-error-due-to-targets-building-for-only-active-architecture/
+
+ post_install do |installer_representation|
+     installer_representation.pods_project.targets.each do |target|
+         target.build_configurations.each do |config|
+             config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+         end
+     end
+ end
